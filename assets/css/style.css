@@ -1,0 +1,203 @@
+@import url(../css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.lasles {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+    color: var(--dark-blue);
+}
+
+
+.vpn {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 700;
+    line-height: 23.7px;
+    text-align: left;
+    color: var(--dark-blue);
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.about {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    color: var(--grey);
+}
+
+.about:hover {
+    color: var(--red);
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.pl-0 {
+    padding-left: 0px;
+}
+
+.sign {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+    color: var(--dark-blue);
+}
+
+.sign:hover {
+    color: var(--red);
+    cursor: pointer;
+}
+
+.signlayout {
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid var(--red);
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 500;
+    line-height: 18.96px;
+    color: var(--red);
+}
+
+.signlayout:hover {
+    color: var(--white);
+    background: var(--red);
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.sect1-head {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-50);
+    max-width: 555px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    color: var(--dark-blue);
+}
+
+.vpn2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-50);
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: var(--dark-blue);
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.sect1-head2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 555px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--grey);
+}
+
+.vpn3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: var(--grey);
+}
+
+.getlayout {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    color: var(--red);
+    border: 1px solid var(--red);
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.getlayout:hover{
+    color: var(--white);
+    background: var(--red);
+    transform: scale(1.1) !important;
+    transition: all linear 0.3s;
+    box-shadow: 0 0  29px -2px red;
+}
+
+.pt-62{
+    padding-top: 62px;
+}
+
+.info-box-lite {
+    width: 205px;
+}
+
+.info-box {
+    padding: 38px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.mt-90 {
+    margin-top: 90px !important;
+}
+
+.border-right-1 {
+    border-right: 2px solid #EEEFF2;
+}
+
+.border-right-2 {
+    border-right: 2px solid #eeeff2;
+}
+
+.gap-35{
+    gap: 35px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.numbers-1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.numbers-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}

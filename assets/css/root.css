@@ -1,0 +1,13 @@
+:root{
+
+    /* font-size */
+    --fs-50:50px;
+    --fs-20:20px;
+    --fs-16:16px;
+
+    /* color */
+    --dark-blue:#0B132A;
+    --grey:#4F5665;
+    --red:#F53855;
+    --white:white;
+}
