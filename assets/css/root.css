@@ -2,12 +2,17 @@
 
     /* font-size */
     --fs-50:50px;
+    --fs-35:35px;
+    --fs-25:25px;
     --fs-20:20px;
     --fs-16:16px;
+    --fs-14:14px;
 
     /* color */
     --dark-blue:#0B132A;
     --grey:#4F5665;
     --red:#F53855;
-    --white:white;
+    --white:#FFFFFF;
+    --dark-white:#FBFBFB;
+    --green:#2FAB73;
 }

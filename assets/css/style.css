@@ -143,15 +143,15 @@
     line-height: 25px;
 }
 
-.getlayout:hover{
+.getlayout:hover {
     color: var(--white);
     background: var(--red);
     transform: scale(1.1) !important;
     transition: all linear 0.3s;
-    box-shadow: 0 0  29px -2px red;
+    box-shadow: 0 0 29px -2px red;
 }
 
-.pt-62{
+.pt-62 {
     padding-top: 62px;
 }
 
@@ -177,7 +177,7 @@
     border-right: 2px solid #eeeff2;
 }
 
-.gap-35{
+.gap-35 {
     gap: 35px;
 }
 
@@ -188,7 +188,7 @@
 
 .numbers-1 {
     font-family: "Rubik", sans-serif;
-    font-size: 25px;
+    font-size: var(--fs-25);
     font-weight: 700;
     line-height: 30px;
     text-align: left;
@@ -196,8 +196,61 @@
 
 .numbers-2 {
     font-family: "Rubik", sans-serif;
-    font-size: 20px;
+    font-size: var(--fs-20);
     font-weight: 400;
     line-height: 30px;
     text-align: left;
+}
+
+.sect2-head {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-35);
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: var(--dark-blue);
+    max-width: 383px;
+}
+
+.mt-83 {
+    margin-top: 83px !important;
+}
+
+.mt-138 {
+    margin-top: 138px !important;
+}
+
+.sect2-head2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    max-width: 428px;
+    color: var(--grey);
+}
+
+.pt-31 {
+    padding-top: 31px;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
+
+.tikhead {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-14);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--grey);
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mb-130{
+    margin-bottom: 130px;
 }
