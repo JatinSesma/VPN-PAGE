@@ -56,7 +56,7 @@
 
 .sign {
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 500;
     line-height: 18.96px;
     text-align: left;
@@ -114,7 +114,7 @@
 
 .sect1-head2 {
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 400;
     max-width: 555px;
     line-height: 30px;
@@ -124,7 +124,7 @@
 
 .vpn3 {
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 500;
     line-height: 30px;
     text-align: left;
@@ -148,7 +148,7 @@
     background: var(--red);
     transform: scale(1.1) !important;
     transition: all linear 0.3s;
-    box-shadow: 0 0 29px -2px red;
+    box-shadow: 0 0 29px -2px var(--red);
 }
 
 .pt-62 {
@@ -170,11 +170,11 @@
 }
 
 .border-right-1 {
-    border-right: 2px solid #EEEFF2;
+    border-right: 2px solid var(--white);
 }
 
 .border-right-2 {
-    border-right: 2px solid #eeeff2;
+    border-right: 2px solid var(--white);
 }
 
 .gap-35 {
@@ -222,7 +222,7 @@
 
 .sect2-head2 {
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 400;
     line-height: 30px;
     text-align: left;
@@ -247,10 +247,186 @@
     color: var(--grey);
 }
 
-.mt-20{
+.pt-60{
+    padding-top: 60px;
+}
+
+.mt-20 {
     margin-top: 20px;
 }
 
-.mb-130{
+.mb-130 {
     margin-bottom: 130px;
+}
+
+.bg-white {
+    background-color: var(--dark-white);
+}
+
+.plan {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-35);
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.sect3-head2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 555px !important;
+    color: var(--grey);
+}
+
+.section-3-box {
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.section-3-box:hover {
+    border: 2px solid var(--red);
+}
+
+.free {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-18);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.Unlimited-Bandwitch {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-14);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: var(--grey);
+}
+.mt-30 {
+    margin-top: 30px;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.pt-30{
+    padding-top: 30px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-17{
+    padding-bottom: 17px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-130{
+    padding-top: 130px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.c-p{
+    cursor: pointer;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-92 {
+    margin-top: 92px;
+}
+.box-last-text {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-25);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.box-last-text span {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-25);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: var(--grey);
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.select-btn {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 700;
+    line-height: 18.96px;
+    text-align: left;
+    color: var(--red);
+    background-color: #ffffff;
+    padding: 13px 62px 13px 62px;
+    border-radius: 35px;
+    border: 2px solid var(--red);
+}
+
+.select-btn:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.mt-60 {
+    margin-top: 60px !important;
+}
+
+.mt-53 {
+    margin-top: 53px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.standard-plan {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-18);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.premium-plan {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-18);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-50 {
+    padding-top: 50px;
 }
