@@ -430,3 +430,61 @@
 .pt-50 {
     padding-top: 50px;
 }
+
+.pt-150{
+    padding-top: 150px;
+}
+
+.huge-global {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-35);
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.huge-global span {
+    display: block;
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-35);
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.see-LaslesVPN {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 555px;
+    color: var(--grey);
+}
+
+.see-LaslesVPN span {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: var(--grey);
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pt-155 {
+    padding-top: 155px;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.w-250{
+    width: 250px;
+}
