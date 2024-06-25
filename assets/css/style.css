@@ -6,8 +6,8 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
+    list-style-type: none !important;
+    text-decoration: none !important;
 }
 
 .lasles {
@@ -575,10 +575,12 @@
     height: 30px;
     border-radius: 20px;
 }
+
 .slick-dots li.slick-active button:before {
     opacity: .75;
-    color:#F53855 !important;
+    color: #F53855 !important;
 }
+
 .slick-slider {
     margin: 0 -15px;
 }
@@ -589,6 +591,7 @@
     margin-right: 15px;
     margin-left: 15px;
 }
+
 .slick-dots {
     position: absolute;
     bottom: -25px;
@@ -597,7 +600,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    text-align:start !important;
+    text-align: start !important;
     left: 2% !important;
 }
 
@@ -610,6 +613,7 @@
 
 
 }
+
 .slick-dots li button:before {
     font-family: slick;
     font-size: 6px;
@@ -681,21 +685,173 @@
 .next:hover svg path {
     fill: white;
 }
-.justify-content-and{
+
+.justify-content-and {
     justify-content: end;
 }
-  
+
+/* .box-shd {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.lastbox-pad{
+    padding: 58px, 70px !important;
+} */
+
+.heading-box {
+    padding: 58px 70px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.gradient {
+    background: linear-gradient(360deg, rgba(248, 248, 248, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.mt-57 {
+    margin-top: 57px;
+}
+
+
+.subscribe {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-35);
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--dark-blue);
+    max-width: 371px;
+}
+
+.subscribe-txt {
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--grey);
+}
+
+.bg-drk-wht{
+    background-color: #F8F8F8;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+
+
+.subscribe-btn {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    color: var(--white);
+    background: var(--red);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    border: none;
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
+}
+
+.backgroundcolor-footer {
+    background-color: #F8F8F8;
+}
+
+.last-laslesvpn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+}
+
+.last-laslesvpn span {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27.3px;
+    text-align: left;
+}
+
+.last-paragraph {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    max-width: 340px;
+}
+
+.last-paragraph span {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left
+}
+
+.lastbottom-laslesvpn {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #AFB5C0;
+}
+
+.lastbottom-laslesvpn span {
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #AFB5C0;
+}
+
+.product {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+}
+
+.links-footer {
+    color: #4F5665;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.links-footer:hover {
+    color: red;
+}
 @media (min-width:992px) {
     .border-right {
         border-right: 2px solid var(--primary-color);
     }
+
+    .mt-15 {
+        margin-top: 15px;
+    }
 }
+
 @media (max-width:768px) {
-    .slick-dots{
+    .slick-dots {
         display: none !important;
     }
-    .md-justify-content-center{
+
+    .md-justify-content-center {
         justify-content: center !important;
     }
-    
+
 }
