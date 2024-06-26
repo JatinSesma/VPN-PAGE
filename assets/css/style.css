@@ -854,4 +854,17 @@
         justify-content: center !important;
     }
 
+    .align-sm-center{
+        align-items: center;
+    }
+}
+
+@media (max-width:576px) {
+    .fs-36{
+        font-size: 36px;
+    }
+
+    .line-height{
+        line-height: 50px;
+    }
 }
