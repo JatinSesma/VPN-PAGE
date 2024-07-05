@@ -10,9 +10,13 @@
     --fs-18:18px;
     --fs-16:16px;
     --fs-14:14px;
+    --fs-12:12px;
     --fs-11:11px;
+    --fs-28:28px;
+    --fs-15:15px;
 
     /* color */
+    --light-white: #FFF;
     --dark-blue:#0B132A;
     --grey:#4F5665;
     --red:#F53855;
