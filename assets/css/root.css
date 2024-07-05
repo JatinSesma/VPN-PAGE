@@ -16,6 +16,7 @@
     --fs-15:15px;
 
     /* color */
+    --whitee:#FBFBFB;
     --light-white: #FFF;
     --dark-blue:#0B132A;
     --grey:#4F5665;
@@ -23,4 +24,5 @@
     --white:#FFFFFF;
     --dark-white:#FAFAFA;
     --green:#2FAB73;
+    --light-grey:#EEEFF2;
 }
