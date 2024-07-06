@@ -56,39 +56,3 @@ $(".sliderbox").slick({
     ]
 });
 
-// $('.responsive').slick({
-//     dots: true,
-//     arrows: true,
-//     prevArrow: '.prev',
-//     nextArrow: '.next',
-//     speed: 250,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     responsive: [
-//         {
-//             breakpoint: 992,
-//             settings: {
-//                 slidesToShow: 2,
-//                 slidesToScroll: 1,
-//                 infinite: true,
-//                 dots: true,
-
-//             }
-//         },
-//         {
-//             breakpoint: 786,
-//             settings: {
-//                 slidesToShow: 1.5,
-//                 slidesToScroll: 1,
-//                 autoplay: true,
-//                 autoplaySpeed: 3000,
-//                 dots: false
-//             }
-//         },
-
-//         // You can unslick at a given breakpoint now by adding:
-//         // settings: "unslick"
-//         // instead of a settings object
-//     ]
-// });
-
