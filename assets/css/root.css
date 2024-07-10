@@ -25,4 +25,45 @@
     --dark-white:#FAFAFA;
     --green:#2FAB73;
     --light-grey:#EEEFF2;
+    --grey-low:#AFB5C0;
+}
+
+.grey-c{
+    color: var(--grey);
+}
+
+.dark-blue{
+    color: var(--dark-blue);
+}
+
+.red-c{
+    color: var(--red);
+}
+
+.fs-20{
+    font-size: var(--fs-20);
+}
+
+.fs-25{
+    font-size: var(--fs-25);
+}
+
+.fs-16{
+    font-size: var(--fs-16);
+}
+
+.fs-14{
+    font-size: var(--fs-14);
+}
+
+.fs-18{
+    font-size: var(--fs-18);
+}
+
+.fs-35{
+    font-size: var(--fs-35);
+}
+
+.grey-low{
+    color: var(--grey-low);
 }

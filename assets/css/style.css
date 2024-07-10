@@ -18,7 +18,6 @@
     left: 0%;
 }
 
-
 .lg-view {
     display: none;
 }
@@ -35,20 +34,8 @@
 .lasles {
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-20);
-    font-weight: 500;
     line-height: 23.7px;
     text-align: left;
-    color: var(--dark-blue);
-}
-
-
-.vpn {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-20);
-    font-weight: 700;
-    line-height: 23.7px;
-    text-align: left;
-    color: var(--dark-blue);
 }
 
 .gap-10 {
@@ -58,14 +45,13 @@
 .about {
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-16);
-    font-weight: 400;
     line-height: 18.96px;
     text-align: left;
-    color: var(--grey);
 }
 
 .about:hover {
     color: var(--red);
+    cursor: pointer;
 }
 
 .gap-40 {
@@ -74,20 +60,6 @@
 
 .pl-0 {
     padding-left: 0px;
-}
-
-.sign {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 18.96px;
-    text-align: left;
-    color: var(--dark-blue);
-}
-
-.sign:hover {
-    color: var(--red);
-    cursor: pointer;
 }
 
 .py-15 {
@@ -102,9 +74,7 @@
     border: 1px solid var(--red);
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-16);
-    font-weight: 500;
     line-height: 18.96px;
-    color: var(--red);
     background: transparent;
 }
 
@@ -123,45 +93,27 @@
 .sect1-head {
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-50);
-    max-width: 555px;
-    font-weight: 500;
     line-height: 70px;
     text-align: left;
-    color: var(--dark-blue);
+
 }
 
-.vpn2 {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-50);
-    font-weight: 700;
-    line-height: 70px;
-    text-align: left;
-    color: var(--dark-blue);
+.mw-555 {
+    max-width: 555px;
 }
 
 .pt-100 {
     padding-top: 100px;
 }
 
-
-
 .sect1-head2 {
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-16);
-    font-weight: 400;
-    max-width: 555px;
     line-height: 30px;
-    text-align: left;
-    color: var(--grey);
 }
 
-.vpn3 {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 30px;
+.text-left {
     text-align: left;
-    color: var(--grey);
 }
 
 .getlayout {
@@ -203,14 +155,6 @@
     margin-top: 90px !important;
 }
 
-.border-right-1 {
-    border-right: 2px solid var(--light-grey);
-}
-
-.border-right-2 {
-    border-right: 2px solid var(--light-grey);
-}
-
 .gap-35 {
     gap: 35px;
 }
@@ -222,16 +166,6 @@
 
 .numbers-1 {
     font-family: "Rubik", sans-serif;
-    font-size: var(--fs-25);
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-}
-
-.numbers-2 {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-20);
-    font-weight: 400;
     line-height: 30px;
     text-align: left;
 }
@@ -243,7 +177,14 @@
     line-height: 50px;
     text-align: left;
     color: var(--dark-blue);
+}
+
+.mw-383 {
     max-width: 383px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
 }
 
 .mt-83 {
@@ -256,12 +197,13 @@
 
 .sect2-head2 {
     font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
     line-height: 30px;
     text-align: left;
-    max-width: 428px;
     color: var(--grey);
+}
+
+.mw-428 {
+    max-width: 428px;
 }
 
 .pt-31 {
@@ -270,15 +212,6 @@
 
 .mt-23 {
     margin-top: 23px;
-}
-
-.tikhead {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-14);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    color: var(--grey);
 }
 
 .pt-60 {
@@ -293,30 +226,17 @@
     margin-bottom: 130px;
 }
 
-
 .bg-white {
     background-color: var(--white);
 }
+
 .bg {
     background-color: var(--whitee);
 }
 
-.plan {
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
-    color: var(--dark-blue);
-}
-
 .sect3-head2 {
     font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
     line-height: 30px;
-    max-width: 555px !important;
-    color: var(--grey);
 }
 
 .section-3-box {
@@ -329,23 +249,12 @@
     border: 2px solid var(--red);
 }
 
-.free {
+/* .free {
     font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-18);
-    font-weight: 500;
     line-height: 30px;
     text-align: center;
     color: var(--dark-blue);
-}
-
-.Unlimited-Bandwitch {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-14);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    color: var(--grey);
-}
+} */
 
 .mt-30 {
     margin-top: 30px;
@@ -395,34 +304,12 @@
     margin-top: 92px;
 }
 
-.box-last-text {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-25);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    color: var(--dark-blue);
-}
-
-.box-last-text span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-25);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    color: var(--grey);
-}
-
 .pb-120 {
     padding-bottom: 120px;
 }
 
 .select-btn {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
     font-weight: 700;
-    line-height: 18.96px;
-    text-align: left;
     color: var(--red);
     background-color: var(--light-white);
     padding: 13px 62px 13px 62px;
@@ -450,24 +337,6 @@
     margin-top: 12px;
 }
 
-.standard-plan {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-18);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    color: var(--dark-blue);
-}
-
-.premium-plan {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-18);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    color: var(--dark-blue);
-}
-
 .pt-90 {
     padding-top: 90px;
 }
@@ -489,35 +358,6 @@
     color: var(--dark-blue);
 }
 
-.huge-global span {
-    display: block;
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
-    color: var(--dark-blue);
-}
-
-.see-LaslesVPN {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    max-width: 555px;
-    color: var(--grey);
-}
-
-.see-LaslesVPN span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    color: var(--grey);
-}
-
 .pt-20 {
     padding-top: 20px;
 }
@@ -534,36 +374,10 @@
     width: 250px;
 }
 
-.sec5-head {
+.trusted-by {
     font-family: "Rubik", sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
     line-height: 50px;
     text-align: center;
-    max-width: 447px;
-    margin-top: 90px;
-    color: var(--dark-blue);
-}
-
-.sec5-txt {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    color: var(--grey);
-    max-width: 555px;
-    margin-top: 24px;
-}
-
-.sub {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
-    line-height: 45px;
-    text-align: left;
-    max-width: 370px;
-    color: var(--dark-blue);
 }
 
 .mb-60 {
@@ -579,49 +393,16 @@
     padding-top: 57px;
 }
 
-.trusted-by {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
-    color: var(--dark-blue);
-}
-
-.happy-customer {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-35);
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
-    color: var(--dark-blue);
-}
-
 .pt-57 {
     padding-top: 57px;
-}
-
-.pleasure-when {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
-    color: var(--grey);
 }
 
 .gap-6 {
     gap: 6px;
 }
 
-.these-are {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
+.mt15 {
     margin-top: 15px;
-    color: var(--grey);
 }
 
 .slider-box {
@@ -641,15 +422,6 @@
     box-shadow: 0 12px 16px 0 rgba(103, 98, 98, 0.35), 0 17px 50px 0 rgba(79, 75, 75, 0.19);
     transition: 0.5s;
 
-}
-
-.mt-60 {
-    margin-top: 60px;
-
-}
-
-.justify-content-flex-end {
-    justify-content: flex-end;
 }
 
 .pl-20 {
@@ -680,26 +452,12 @@
 
 .pl-85 {
     padding-left: 85px;
-
-}
-
-.svg-no {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
 }
 
 .slick-para-3 {
     width: 340px;
     height: 100px;
     padding-top: 10px;
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
     color: var(--dark-blue);
 }
 
@@ -727,10 +485,8 @@
     transition: all 200ms linear;
 }
 
-
 .next:hover {
     background-color: var(--red);
-
 }
 
 .next:hover path {
@@ -739,7 +495,6 @@
 
 .prev:hover {
     background-color: var(--red);
-
 }
 
 .prev:hover path {
@@ -797,11 +552,6 @@
     color: transparent !important;
 }
 
-.mt-60 {
-    margin-top: 60px;
-
-}
-
 .slick-list {
     overflow: visible;
     padding: 0 20% 0 0;
@@ -828,7 +578,7 @@
     text-align: center;
 }
 
-.z-5{
+.z-5 {
     z-index: 5;
 }
 
@@ -873,7 +623,6 @@
     font-size: var(--fs-16);
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0em;
     text-align: left;
     color: var(--grey);
 }
@@ -884,14 +633,6 @@
 
 .mt-80 {
     margin-top: 80px;
-}
-
-.w-33 {
-    width: 33px;
-}
-
-.h-33 {
-    height: 33px;
 }
 
 .subscribe-btn {
@@ -918,54 +659,14 @@
     background-color: #F8F8F8;
 }
 
-.last-laslesvpn {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 23.7px;
-    text-align: left;
-}
-
-.last-laslesvpn span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 700;
-    line-height: 27.3px;
-    text-align: left;
-}
-
 .last-paragraph {
     font-family: "Rubik", sans-serif;
     font-size: var(--fs-16);
-    font-weight: 400;
     line-height: 30px;
-    text-align: left;
+}
+
+.mw-340{
     max-width: 340px;
-    color: var(--grey);
-}
-
-.last-paragraph span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left
-}
-
-.lastbottom-laslesvpn {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    color: #AFB5C0;
-}
-
-.lastbottom-laslesvpn span {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 500;
-    line-height: 30px;
-    color: #AFB5C0;
 }
 
 .product {
@@ -975,15 +676,6 @@
     line-height: 30px;
     text-align: left;
     color: var(--dark-blue);
-}
-
-.links-footer {
-    color: var(--grey);
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-16);
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
 }
 
 .links-footer:hover {
@@ -1004,6 +696,7 @@
     width: 1170px;
     height: 450px;
 }
+
 .svg-circle {
     /* display: inline-block; */
     width: 35px;
@@ -1015,7 +708,6 @@
 
 .trnsition:hover {
     transform: rotateY(360deg);
-
 }
 
 .trnsition {
@@ -1046,16 +738,9 @@
     .show {
         left: 0%;
     }
-
-
-
 }
 
 @media (min-width:992px) {
-    .border-right {
-        border-right: 2px solid var(--grey)z;
-    }
-
     .mt-15 {
         margin-top: 15px;
     }
@@ -1073,18 +758,18 @@
         padding-bottom: 15px;
     }
 
-    .ml-20{
+    .ml-20 {
         margin-left: 20px;
+    }
+
+    .border-right-2 {
+        border-right: 2px solid var(--light-grey);
     }
 }
 
 @media (max-width:768px) {
     .slick-dots {
         display: none !important;
-    }
-
-    .md-justify-content-center {
-        justify-content: center !important;
     }
 
     .align-sm-center {
@@ -1108,6 +793,13 @@
     }
 }
 
+@media (min-width:768px) {
+    
+.border-right-1 {
+    border-right: 2px solid var(--light-grey);
+}
+
+}
 @media (max-width:576px) {
     .fs-36 {
         font-size: var(--fs-36);
@@ -1144,7 +836,6 @@
 
     .sect2-head {
         font-size: var(--fs-28) !important;
-
     }
 
     .sect1-head {
@@ -1159,15 +850,12 @@
         font-size: var(--fs-15) !important;
     }
 
-
-
     .slick-dots {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
         position: absolute !important;
         left: 2% !important;
-
     }
 
     .trusted-by {
@@ -1184,6 +872,4 @@
         line-height: 50px;
         text-align: center;
     }
-
-
 }
