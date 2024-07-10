@@ -46,7 +46,6 @@
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-16);
     line-height: 18.96px;
-    text-align: left;
 }
 
 .about:hover {
@@ -72,9 +71,6 @@
     height: 45px;
     border-radius: 50px;
     border: 1px solid var(--red);
-    font-family: 'Rubik', sans-serif;
-    font-size: var(--fs-16);
-    line-height: 18.96px;
     background: transparent;
 }
 
@@ -164,12 +160,6 @@
     padding-bottom: 30px;
 }
 
-.numbers-1 {
-    font-family: "Rubik", sans-serif;
-    line-height: 30px;
-    text-align: left;
-}
-
 .sect2-head {
     font-family: 'Rubik', sans-serif;
     font-size: var(--fs-35);
@@ -248,13 +238,6 @@
 .section-3-box:hover {
     border: 2px solid var(--red);
 }
-
-/* .free {
-    font-family: 'Rubik', sans-serif;
-    line-height: 30px;
-    text-align: center;
-    color: var(--dark-blue);
-} */
 
 .mt-30 {
     margin-top: 30px;
