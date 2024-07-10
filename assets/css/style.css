@@ -388,7 +388,6 @@
     margin-top: 5px;
 }
 
-
 .pt-57 {
     padding-top: 57px;
 }
@@ -647,6 +646,16 @@
     border: none;
 }
 
+
+.product {
+    font-family: "Rubik", sans-serif;
+    font-size: var(--fs-18);
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: var(--dark-blue);
+}
+
 .subscribe-btn:hover {
     color: var(--white);
     background: var(--red);
@@ -669,16 +678,7 @@
     max-width: 340px;
 }
 
-.product {
-    font-family: "Rubik", sans-serif;
-    font-size: var(--fs-18);
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left;
-    color: var(--dark-blue);
-}
-
-.links-footer:hover {
+.footer:hover {
     color: red;
 }
 
